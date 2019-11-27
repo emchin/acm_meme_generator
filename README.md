@@ -4,6 +4,7 @@ Meme generator for teaching principles for creating web-apps.
 # Deployment
 1) npm install (both in server, and in the main dir)
 2) install MongoDB
+3) npm run dev
 
 # How to Run
 1) npm run dev
