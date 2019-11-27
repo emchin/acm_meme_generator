@@ -9,6 +9,11 @@ Meme generator for teaching principles for creating web-apps.
 # How to Run
 1) npm run dev
 
+# Debugging
+To continuously run mongoDB, run "mongod -f /usr/local/etc/mongod.conf" in a tab in Terminal
+
+If another task is running on localhost 3001, the task will fail. Try ending the other task running on localhost 3001; it will succeed if the "Database created" etc is logged to the command line
+
 ## Useful Links
 https://www.codementor.io/kakarganpat/how-to-setup-react-and-node-js-in-a-project-koxwqbssl
 
